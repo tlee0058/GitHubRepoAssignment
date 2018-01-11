@@ -1,0 +1,46 @@
+def main():
+	print(myFirstVar)
+	
+def helloWorld(helloWorld):
+	print(helloWorld)
+	
+myFirstVar = "Hello World!!"
+main()
+print(myfirstVar)
+helloWorld(myFirstVar)
+
+# Hello World!!
+# Hello World!!
+# Hello World!!
+
+# keep running until numbers are valid
+
+def main():
+	validInput = False
+	while validInput:
+		try:
+			num1 = int(input("What is number 1"))
+			num2 = int(input("what is number 2"))
+			operation = int(input("What do you wnat to do? 1, 2, 3, 4"))
+			validInput = True
+		except:  # to prevent from cracking
+			print("invalid input. The progress will now exit")
+			return 
+		
+	if (operation == 1):
+		print("adding")
+		print(add(num1, num2))
+	elif(operation == 2):
+		print("subtracting")
+		print(sub(num1, num2))
+	elif(operation ==3):
+		print("multiplying")
+		print(mul(num1, num2))
+	elif(operation == 4):
+		print("dividing")
+		print(div(num1, num2))
+	else:
+		print("I don't understand")
+		
+main()
+	

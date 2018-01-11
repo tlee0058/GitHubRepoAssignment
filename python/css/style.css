@@ -1,0 +1,59 @@
+p {
+color: red;
+}
+/*div has to have both width and height in order to work*/
+div {
+border: 4px solid red;
+background: blue;
+color:white;
+width:100%;
+height:100%
+float:right;
+border-radius: 25px;
+margin-right: 200px;
+padding:20px;
+}
+
+div ul {
+list-style-type:none;
+list-style-type:square;
+}
+#page-title {
+	text-align: center;
+
+#pic_container {
+	border: 1px solid black;
+	height: 400px;
+	width: 400px;
+	margin: 40px 40px 60px 10px;
+	margin: 0 auto;
+	/* margin is to center (top, bottom, left, right)*/	
+	
+}
+
+#picture-css {
+	width:900px;
+	height:300px;
+	background-image: url(../images/1.jpg);
+	
+#image {
+width: 100%;}
+
+#hovers {
+	width: 200px;
+	height: 200px;
+	border:1px solid black;
+}
+#hovers:hover {
+	
+
+#hovers h2 {
+	text-align: center;
+	
+}
+
+	
+background-color: black;
+border: 1px solid red;
+color:white;
+}

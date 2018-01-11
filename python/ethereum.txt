@@ -1,0 +1,22 @@
+mean = mongo, express, angular, node
+dapps - front (hmtl, css, js)
+		back (aws, rail, jdango, node, jquery, ethereum blockchain, w3school for frontend)
+		
+		install nodejs (run javascript command line, write and execute js)
+			npm(node package manager)
+			testRPC(run local ethereum node)
+			-web3JS - JS API to interact eth node
+			-solC (solidity compilier)
+			-geth (popular eth client written in gold language
+			-Mist Ethereum Wallet (interact with eth)
+			
+nodejs.org download
+homebrew.com(make download easy)
+npm 
+
+{
+	"dependencies": {
+		"ethereumjs-testrpc": "4.1.1",
+		"web3": "1.0.0-beta.18",
+		"solc": "0.4.17"
+} save as package.json

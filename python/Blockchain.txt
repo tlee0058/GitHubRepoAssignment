@@ -1,0 +1,50 @@
+Blockchain layout
+
+1) Users. ex jaxx light client, nodes connected, transactional
+
+
+2) Nodes - not just users, verify validity, rebroadcast, keep a copy, peer to peer relay system
+			not benefited when run, but outcome preferred is achieved
+
+3) Miners: bulild chain, finalize transaction and operate as a node
+	done in pools to gather stronger power vs just one computer
+	4 types: CPU, GPU, FPGA, ASIC
+
+a block consists of coinbase (accumluation and old blocks), timestamp, difficulty adjustment
+
+1000KB per block max
+
+address is public key, only private key can decode and change the value of public key
+
+Bob sends alice a message (Hello World) then got encrpted to a random numbers, alice can only read it with her private keywall
+
+wallet:
+1) software wallet (phone, computer) own private key
+
+2) Web wallet (web browser, ie blockchain.info) don;t have private keys (provideer has)
+
+3) full node wallet - like software wallet but have to run a node
+
+4) paper wallet - generate address offline and send funds there, consist of public key and private key
+
+Fullstack developer:
+Webserver (receiptionist)
+-Apache
+-Nginx
+-Tomcats
+-Webrick
+
+Interpreters (warehouse workers with difffernet languages)
+-PHP - CodeIgniter, CakePHP,Zend
+-python - Django
+-Ruby - Rails, Sinatra
+-C# - .NET, MVC
+-Java 
+
+Databases
+-MySQL
+-SQLLite
+-Postgres
+-Oracle
+-Redis
+-MongoDB
